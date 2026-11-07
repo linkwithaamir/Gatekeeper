@@ -1,0 +1,40 @@
+
+# Maven
+**/target/
+
+# Gradle
+**/build/
+**/.gradle/
+
+# IntelliJ
+.idea/
+**/.idea/
+*.iml
+
+# Mac
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Secrets and certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# Logs
+*.log
+logs/
+
+# Local database files
+mysql-data/
+**/mysql-data/
